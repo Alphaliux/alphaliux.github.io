@@ -5,13 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>$BOBR</title>
     <link rel="stylesheet" href="style/css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="media/favicon/favicon.ico" type="image/x-icon">
 </head>
 <body>
 
-<div class="firstHero">
+<div data-aos="fade-up" data-aos-duration="1500" class="firstHero">
     <h>Welcome to <span>$BOBR</span></h>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras id sem  vitae massa placerat pharetra. Maecenas quam velit, porta id fringilla  a, egestas vel neque. Duis aliquam purus at interdum.</p>
+    <div class="buttons">
+        <button id="bOne"><a href="https://www.google.com" target="_blank"><i class="fa-solid fa-coins"></i> BUY</a></button>
+        <button id="bTwo">READ MORE</button>
+    </div>
 </div>
+
+<div class="secondHero">
+    <div data-aos="fade-right" data-aos-duration="1500" class="leftSide">
+        <h>About $BOBR</h>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae  tortor eu turpis congue pellentesque. Mauris ante nulla, semper sed  venenatis at, luctus in ligula. Suspendisse potenti. Mauris ornare  scelerisque nunc, id gravida lectus congue id. Integer id tempor quam.<br><br>Vestibulum nec leo nec leo ultrices viverra. In malesuada consectetur  arcu, vitae porttitor augue efficitur at. Maecenas commodo nisl non enim interdum, nec tincidunt orci malesuada. Sed dignissim libero et feugiat molestie.
+        </p>
+        <button><a href="https://www.telegram.org"><i class="fa-brands fa-telegram"></i>  TELEGRAM</a></button>
+    </div>
+    <div data-aos="fade-left" data-aos-duration="1500" class="rightSide">
+        <img src="media/img/bobrkurwa.jpeg" alt="">
+    </div>
+</div>
+
+<div class="heroThree">
+    <h data-aos="zoom-in" data-aos-duration="1500">TOKENOMICS</h>
+    <div class="cards">
+        <div data-aos="fade-up" data-aos-duration="1500" class="card">
+            <h>Burnt Supply</h>
+            <p>100%</p>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="1500" class="card">
+            <h>Developments</h>
+            <p>5%</p>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="1500" class="card">
+            <h>Marketing</h>
+            <p>10%</p>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="1500" class="card">
+            <h>Giveaways</h>
+            <p>5%</p>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="1500" class="card">
+            <h>Reserve</h>
+            <p>5%</p>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="1500" class="card">
+            <h>Partnerships</h>
+            <p>5%</p>
+        </div>
+    </div>
+</div>
+
+<script src="https://kit.fontawesome.com/da9f598055.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 
 </body>
 </html>
